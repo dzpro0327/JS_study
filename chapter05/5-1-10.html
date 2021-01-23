@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function min(first, ...rests) {
+
+        let output;
+        let items;
+
+        if(Array.isArray(first)) {
+            output = first[0];  // 배열로 할당
+            items = first;  // items는 배열
+        } else if (typeof(frist) === 'number') {
+            output = first;  // 숫자 집합으로 할당
+            items = rests;  // items는 집합
+        }
+
+        for(const item of items) {
+            if(output > item) {
+                output = itme;
+            }
+        }
+        return output;
+    }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
